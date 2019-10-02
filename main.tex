@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{textwidth=7cm}
+
+\usepackage{amsmath}
+
+\title{Display Style Example}
+\author{Overleaf team}
+\begin{document}
+
+\maketitle
+
+Depending on the value of $x$ the equation \( f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} \) may diverge or converge.
+
+\[ f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} \]
+
+\vspace{1cm}
+
+In-line maths elements can be set with a different style: \(f(x) = \displaystyle \frac{1}{1+x}\). The same is true the other way around:
+
+\begin{eqnarray*}
+f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} \\
+\textstyle f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} \\
+\scriptstyle f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} \\
+\scriptscriptstyle f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x}
+\end{eqnarray*}
+
+\end{document}
